@@ -1,0 +1,32 @@
+{
+  "generator-veams": {
+    "projectName": "sourcetree vs terminal",
+    "projectType": "static-page-app",
+    "taskRunner": "grunt",
+    "templateEngine": "ssr-mangony-hbs",
+    "server": [
+      "serverFakeData"
+    ],
+    "gruntModules": [
+      "grunt-autoprefixer",
+      "grunt-contrib-handlebars"
+    ],
+    "features": [],
+    "jsLibs": [
+      "jquery"
+    ],
+    "cssLibs": [
+      "bourbon-neat",
+      "include-media"
+    ],
+    "testAndQA": false,
+    "testAndQALibs": [],
+    "veamsPackages": true,
+    "docs": [],
+    "icons": [],
+    "images": [],
+    "cssPostProcessors": [
+      "autoprefixer"
+    ]
+  }
+}

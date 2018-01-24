@@ -1,0 +1,24 @@
+/* ===================================================
+Main File For Imports
+=================================================== */
+// Reset (veams-reset or veams-normalize)
+@import "../../node_modules/veams/src/scss/veams-reset";
+
+// Global Variables and Settings
+@import "shared/styles/shared";
+
+// Frameworks
+
+
+// Icons
+@import "shared/styles/icons/**/*";
+
+// Core
+@import "core/styles/core";
+@import "core/styles/print";
+@import "core/styles/get-media";
+
+
+// Components
+@import "shared/components/sitemap/styles/_c-sitemap";
+
