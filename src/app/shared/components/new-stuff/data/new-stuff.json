@@ -1,0 +1,16 @@
+
+{
+	"variations": {
+		"default": {
+			"docs": {
+				"variationName": "Default"
+			},
+			"settings": {
+				"newStuffContextClass": "default",
+				"newStuffClasses": false,
+				"newStuffJsOptions": {}
+			},
+			"content": {}
+		}
+	}
+}

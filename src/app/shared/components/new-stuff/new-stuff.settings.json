@@ -1,0 +1,11 @@
+
+{
+    "paths": {
+        "scripts": "src/app/shared/components/new-stuff/scripts/new-stuff",
+        "styles": "src/app/shared/components/new-stuff/styles/new-stuff"
+    },
+    "type": "component",
+    "contextData": "new-stuff",
+    "layout": "lyt-docs",
+    "publish": true
+}
