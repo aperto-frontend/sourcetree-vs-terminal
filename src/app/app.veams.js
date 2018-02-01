@@ -45,10 +45,10 @@ Veams.onInitialize(() => {
         useMutationObserver: true,
         internalCacheOnly: false
     });
-    
+
     // Trigger global scroll event
-    window.onscroll = Veams.helpers.throttle((e) => {
-        Veams.Vent.trigger(Veams.EVENTS.scroll, e);
+    window.onscroll = Veams.helpers.throttle((event) => {
+        Veams.Vent.trigger(Veams.EVENTS.scroll, event);
     }, 200);
 });
 
